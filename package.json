@@ -1,0 +1,15 @@
+{
+  "name": "pubg-api-example",
+  "version": "0.0.1",
+  "description": "pubg api example",
+  "author": "micheal_death",
+  "dependencies": {},
+  "devDependencies": {
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "nunjucks": "^3.1.2",
+    "steam-totp": "^2.0.1",
+    "steam-user": "^3.26.0",
+    "ws": "^5.1.0"
+  }
+}

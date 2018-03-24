@@ -1,0 +1,5 @@
+# dependencies
+node_modules
+
+# steam account config
+config.json
