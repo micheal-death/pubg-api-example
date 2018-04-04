@@ -44,7 +44,7 @@ client.on('loggedOn', () => {
     console.log(ticket.toString('hex').toUpperCase())
 
     ws = new WebSocket(
-      `wss://prod-live-entry.playbattlegrounds.com/userproxy?provider=steam&ticket=${ticket.toString('hex').toUpperCase()}&playerNetId=${config.steamId}&cc=CN&clientGameVersion=3.7.20&fullClientGameVersion=3.7.20&timezoneOffset=8`, {
+      `wss://prod-live-entry.playbattlegrounds.com/userproxy?provider=steam&ticket=${ticket.toString('hex').toUpperCase()}&playerNetId=${config.steamId}&cc=CN&clientGameVersion=3.7.26&fullClientGameVersion=3.7.26.15&timezoneOffset=8`, {
         perMessageDeflate: false
       })
 
