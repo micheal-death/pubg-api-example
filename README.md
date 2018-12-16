@@ -1,4 +1,6 @@
 # pubg-api-example
+## This project is deprecated
+Cause the websocket address is always change. So you can use the API provided by https://developer.playbattlegrounds.com/
 ## Getting started
 ```
 git clone https://github.com/micheal-death/pubg-api-example.git
